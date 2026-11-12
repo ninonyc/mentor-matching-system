@@ -1,0 +1,46 @@
+# macOS / editors
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# C++ / CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Frontend / Node
+node_modules/
+dist/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Environment variables / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local runtime databases and related SQLite files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Temporary logs
+*.log
