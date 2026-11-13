@@ -1,0 +1,9 @@
+test_persistent_cohort_matching_feedback_and_restart (__main__.LiveWorkflow.test_persistent_cohort_matching_feedback_and_restart) ... 127.0.0.1 - - [12/Nov/2026 22:11:05] "GET /app.js HTTP/1.1" 200 -
+ok
+test_active_listener_reports_exact_port (__main__.PortChecks.test_active_listener_reports_exact_port) ... ok
+test_recently_closed_connection_can_restart (__main__.PortChecks.test_recently_closed_connection_can_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 4.448s
+
+OK

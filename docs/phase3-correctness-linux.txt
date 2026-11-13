@@ -1,0 +1,5 @@
+Exhaustive: 46973 preference profiles; 281723 candidate assignments passed
+Randomized: 1000 cases passed (seed 4330)
+Mutations: 866 cases x 4 rejection checks passed
+Contention: 8 shared-ranking cases passed
+ALL PHASE 3 CORRECTNESS CHECKS PASSED

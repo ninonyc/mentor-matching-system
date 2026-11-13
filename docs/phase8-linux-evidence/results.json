@@ -1,0 +1,191 @@
+{
+  "started_at_utc": "20261113T031046846287Z",
+  "environment": {
+    "system": "Linux",
+    "release": "6.18.57",
+    "macos": "",
+    "python": "3.12.14",
+    "macos_deployment_target": null
+  },
+  "checks": [
+    {
+      "id": "P8-build-api",
+      "status": "NOT_RUN",
+      "reason": "Caller requested --skip-build; existing API required"
+    },
+    {
+      "id": "P8-build-matching_smoke_tests",
+      "command": [
+        "c++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Ialgorithm/include",
+        "algorithm/src/matching.cpp",
+        "tests/matching_smoke_tests.cpp",
+        "-o",
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/matching_smoke_tests"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-build-matching_smoke_tests.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 1.37
+    },
+    {
+      "id": "P8-matching_smoke_tests",
+      "command": [
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/matching_smoke_tests"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-matching_smoke_tests.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.004
+    },
+    {
+      "id": "P8-build-stability_tests",
+      "command": [
+        "c++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Ialgorithm/include",
+        "algorithm/src/stability.cpp",
+        "tests/stability_tests.cpp",
+        "-o",
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/stability_tests"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-build-stability_tests.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 1.322
+    },
+    {
+      "id": "P8-stability_tests",
+      "command": [
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/stability_tests"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-stability_tests.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.008
+    },
+    {
+      "id": "P8-build-core_validation",
+      "command": [
+        "c++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Ialgorithm/include",
+        "algorithm/src/matching.cpp",
+        "algorithm/src/stability.cpp",
+        "tests/core_validation.cpp",
+        "-o",
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/core_validation"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-build-core_validation.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 2.428
+    },
+    {
+      "id": "P8-core_validation",
+      "command": [
+        "/workspace/scratch/63060c6c0ae0/phase1/mentor-matching-system-main/build/phase8-results/20261113T031046846287Z/core_validation"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-core_validation.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.368
+    },
+    {
+      "id": "P8-schema",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "database/tests/test_schema.py"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-schema.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.165
+    },
+    {
+      "id": "P8-api",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-W",
+        "default::ResourceWarning",
+        "backend/tests/test_api.py"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-api.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 9.352
+    },
+    {
+      "id": "P8-persistence",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-W",
+        "default::ResourceWarning",
+        "tests/integration/test_live_workflow.py"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-persistence.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 4.581
+    },
+    {
+      "id": "P8-frontend-controller",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--test",
+        "tests/integration/frontend_restore.cjs"
+      ],
+      "log": "build/phase8-results/20261113T031046846287Z/P8-frontend-controller.txt",
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.215
+    }
+  ],
+  "source_sha256": {
+    "algorithm/include/matching.hpp": "133392f3946219db81c1916f60e8811718d7db81ecf2abf40701ef699f781d37",
+    "algorithm/include/stability.hpp": "aa2a84e5fc71ace910232ed91d6fb5dc4795dc03430afe0aa40de9d83701daed",
+    "algorithm/src/demo.cpp": "ccee8683704fec99b99c389040416962a9055a8e4c19f27ae92e9b71a9ec146e",
+    "algorithm/src/matching.cpp": "df0a2352d01bbc12f75fce6b9425ad2643a410819db2d1274432c8114e5e34ef",
+    "algorithm/src/stability.cpp": "483552e98ac9a7e57b5f812950b453bde2b019ae1844ca9c9106dc0c09d7668f",
+    "algorithm/src/stability_demo.cpp": "b0f319b86977f8171050820596c5404645f22041907c463e1db75db1d4193f46",
+    "backend/src/auth.cpp": "df45167cddc6a7ec8e3659cc3cdc77a4bbeeacef033572ec1b7536247590a6eb",
+    "backend/src/database.cpp": "0e850e91f64b465078c9cbfda5bfdcb7cf5dd476972126eb4e81c3f6785d389e",
+    "backend/src/server.cpp": "c547d795220f858d5292db6da510b990934143e4a8efa76ee55ab624a120dfa0",
+    "backend/src/service.cpp": "9c3b3bd20cc5e611cf25d4831836d79b3b460381b038738fb48bf3bac4152140",
+    "backend/tests/test_api.py": "2d41cba28ecd115d148ec8c1ae2aaa73f1ce35bf85db8cd3984714ead548009c",
+    "database/demo.py": "ae30049481bd327ededec57467283095668b819b8cf2ece711f8f80148ff31b1",
+    "database/migrations/001_initial.sql": "0bac7cb146373fc55e640537bb845d1cd434b8bfd0735de5c072b78bce0eadd5",
+    "database/migrations/002_auth.sql": "cc5b55af6bf8b66ff36af5a901a91f435381dcf875f0abd8425d4a5f3a4f79f9",
+    "database/tests/test_schema.py": "6e29ddd90c93884ecb3cc83b7fa3ab323a297b74c93f668a83176ceebd6d0a68",
+    "frontend/app.js": "cdc402b3b9687e2c086fd842dca610ea10834ed25a17bda65e59657818b92994",
+    "frontend/dist/app.js": "508828844df1745c42de487beade63443dd95d6c7fba4daf17d141c7d67ed4e5",
+    "frontend/dist/index.html": "3cd233dd7074b09fd3471e0141db817e1cf50cd75ef6de360df246e0ec7cf052",
+    "frontend/dist/styles.css": "5f0638275288cbf0399497bb8f342f103e3a239f010215b57ef98daad43c4d13",
+    "frontend/index.html": "153630e360fbe2f23286de3c95f6d7deefefc4209e43b73be37b8e57906e48a9",
+    "frontend/styles.css": "712af8fad4dc7da132ec7e841f57e3ffc5f581c6ba3418e7c7e8272ab4788df9",
+    "tests/core_validation.cpp": "630ae76ef6080f802a80bbd009c42871b418981e3f2c0aaa0c94ccc4fbb3121a",
+    "tests/integration/browser_workflow.cjs": "a27606f135db41a02af1fea018434dccd1a2546255e52bd100c36d201e487faf",
+    "tests/integration/frontend_restore.cjs": "30feb884d3df54af6a27518afcce4e4cd61e380e958dfc2374b2c31881a77f7d",
+    "tests/integration/test_live_workflow.py": "f8138d96abd00d25acbf242a0cbc0b49b992bc9fc0314241447bd2a48cc07e06",
+    "tests/matching_smoke_tests.cpp": "97aff2c86f5978647a121f7c6e6692094d34ab1e2b8e7fc3e285c152475dcea4",
+    "tests/stability_tests.cpp": "0d9ef24bc44553ab05f226a343bc242fe46aadc89b0f06e13eb8b8bf46b937c9",
+    "tools/phase7_demo.py": "39f1d5f4686c034cee9b81204bf9ac3a6189e15ddef2ee1570ea707f8a562464",
+    "tools/run_full_system_tests.py": "ef1992a8c56c32e7102cce457b8a319fbb7918ea845fa0aaf12fba0e903e0a6c"
+  },
+  "browser_status": "pending",
+  "status": "EXECUTED_CHECKS_PASSED",
+  "finished_at_utc": "2026-11-13T03:11:06.670816+00:00"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "file": "httplib.h",
+    "source": "https://raw.githubusercontent.com/yhirose/cpp-httplib/v0.66.0/httplib.h",
+    "sha256": "51ddd1482c67acb31f3064e48329aade14acc7dd0fab31ee5397193697ea1c35"
+  },
+  {
+    "file": "httplib-LICENSE",
+    "source": "https://raw.githubusercontent.com/yhirose/cpp-httplib/v0.66.0/LICENSE",
+    "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b"
+  },
+  {
+    "file": "json.hpp",
+    "source": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/single_include/nlohmann/json.hpp",
+    "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+  },
+  {
+    "file": "json-LICENSE",
+    "source": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/LICENSE.MIT",
+    "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+  },
+  {
+    "file": "sqlite.zip",
+    "source": "https://www.sqlite.org/2025/sqlite-amalgamation-3500400.zip",
+    "sha256": "1d3049dd0f830a025a53105fc79fd2ab9431aea99e137809d064d8ee8356b032"
+  }
+]

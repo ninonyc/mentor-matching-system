@@ -1,0 +1,36 @@
+test_assignment_roles_and_uniqueness (__main__.SchemaTests.test_assignment_roles_and_uniqueness) ... ok
+test_atomic_rollback (__main__.SchemaTests.test_atomic_rollback) ... ok
+test_blocking_pair_shape (__main__.SchemaTests.test_blocking_pair_shape) ... ok
+test_cannot_close_building_run (__main__.SchemaTests.test_cannot_close_building_run) ... ok
+test_change_reason_required (__main__.SchemaTests.test_change_reason_required) ... ok
+test_close_round (__main__.SchemaTests.test_close_round) ... ok
+test_complete_submission_required (__main__.SchemaTests.test_complete_submission_required) ... ok
+test_email_case_unique (__main__.SchemaTests.test_email_case_unique) ... ok
+test_finalized_run_immutable (__main__.SchemaTests.test_finalized_run_immutable) ... ok
+test_freeze_counts (__main__.SchemaTests.test_freeze_counts) ... ok
+test_inactive_user_cannot_join (__main__.SchemaTests.test_inactive_user_cannot_join) ... ok
+test_initial_fixture (__main__.SchemaTests.test_initial_fixture) ... ok
+test_missing_user_fk (__main__.SchemaTests.test_missing_user_fk) ... ok
+test_new_preferences_preserve_run_and_mark_outdated (__main__.SchemaTests.test_new_preferences_preserve_run_and_mark_outdated) ... ok
+test_opposite_side_only (__main__.SchemaTests.test_opposite_side_only) ... ok
+test_promotion_preserves_history (__main__.SchemaTests.test_promotion_preserves_history) ... ok
+test_rank_range_and_type (__main__.SchemaTests.test_rank_range_and_type) ... ok
+test_ratings_only_assigned_partners (__main__.SchemaTests.test_ratings_only_assigned_partners) ... ok
+test_rejected_run_records_unstable_pair (__main__.SchemaTests.test_rejected_run_records_unstable_pair) ... ok
+test_replace_cannot_erase_history (__main__.SchemaTests.test_replace_cannot_erase_history) ... ok
+test_revision_sequential (__main__.SchemaTests.test_revision_sequential) ... ok
+test_roster_frozen (__main__.SchemaTests.test_roster_frozen) ... ok
+test_run_needs_all_input_versions (__main__.SchemaTests.test_run_needs_all_input_versions) ... ok
+test_run_needs_verification (__main__.SchemaTests.test_run_needs_verification) ... ok
+test_run_requires_admin (__main__.SchemaTests.test_run_requires_admin) ... ok
+test_snapshot_owner_fk (__main__.SchemaTests.test_snapshot_owner_fk) ... ok
+test_snapshot_requires_submitted (__main__.SchemaTests.test_snapshot_requires_submitted) ... ok
+test_stale_draft_cannot_submit (__main__.SchemaTests.test_stale_draft_cannot_submit) ... ok
+test_submitted_history_immutable (__main__.SchemaTests.test_submitted_history_immutable) ... ok
+test_unique_ranks_and_targets (__main__.SchemaTests.test_unique_ranks_and_targets) ... ok
+test_verified_run_requires_full_matching (__main__.SchemaTests.test_verified_run_requires_full_matching) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.084s
+
+OK

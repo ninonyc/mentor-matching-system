@@ -1,0 +1,14 @@
+✔ fresh admin login restores saved pairs and groups feedback for selected round (5.016029ms)
+✔ participant login reloads partner and never fetches administrator feedback (1.128939ms)
+✔ published unmatched and no published assignment are distinct states (1.462931ms)
+✔ assignment request failure shows retry rather than pretending data is absent (1.483312ms)
+✔ ratings failure is explicit without hiding saved assignments (0.994958ms)
+✔ history failure cannot be mislabeled as no saved matching or no feedback (0.838051ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.66958

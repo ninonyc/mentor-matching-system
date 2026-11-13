@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: ascent-mentoring
+    runtime: docker
+    repo: https://github.com/ninonyc/mentor-matching-system
+    branch: main
+    plan: 0.5c-512mb
+    numInstances: 1
+    autoDeployTrigger: 'off'
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    disk:
+      name: ascent-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: '10000'
+      - key: MENTOR_DATA_DIR
+        value: /var/data
+      - key: MENTOR_BOOTSTRAP_EMAIL
+        sync: false
+      - key: MENTOR_BOOTSTRAP_PASSWORD
+        sync: false

@@ -1,0 +1,38 @@
+test_01_health (__main__.ApiTests.test_01_health) ... ok
+test_02_auth_required (__main__.ApiTests.test_02_auth_required) ... ok
+test_03_wrong_password (__main__.ApiTests.test_03_wrong_password) ... ok
+test_04_json_validation (__main__.ApiTests.test_04_json_validation) ... ok
+test_04b_json_depth (__main__.ApiTests.test_04b_json_depth) ... ok
+test_05_origin (__main__.ApiTests.test_05_origin) ... ok
+test_06_admin_user_creation (__main__.ApiTests.test_06_admin_user_creation) ... ok
+test_07_input_types (__main__.ApiTests.test_07_input_types) ... ok
+test_08_readiness_and_missing_preferences (__main__.ApiTests.test_08_readiness_and_missing_preferences) ... ok
+test_09_preference_rollback (__main__.ApiTests.test_09_preference_rollback) ... ok
+test_10_duplicate_preference (__main__.ApiTests.test_10_duplicate_preference) ... ok
+test_11_self_owned_preferences (__main__.ApiTests.test_11_self_owned_preferences) ... ok
+test_12_matching_calls_real_core (__main__.ApiTests.test_12_matching_calls_real_core) ... ok
+test_13_matching_admin_only (__main__.ApiTests.test_13_matching_admin_only) ... ok
+test_14_assignment_privacy (__main__.ApiTests.test_14_assignment_privacy) ... ok
+test_15_change_reason_and_snapshot (__main__.ApiTests.test_15_change_reason_and_snapshot) ... ok
+test_16_recheck_unstable (__main__.ApiTests.test_16_recheck_unstable) ... ok
+test_17_change_can_remain_stable (__main__.ApiTests.test_17_change_can_remain_stable) ... ok
+test_18_ratings_privacy_and_ownership (__main__.ApiTests.test_18_ratings_privacy_and_ownership) ... ok
+test_19_closed_round (__main__.ApiTests.test_19_closed_round) ... ok
+test_20_frozen_roster (__main__.ApiTests.test_20_frozen_roster) ... ok
+test_21_collecting_roster_remove (__main__.ApiTests.test_21_collecting_roster_remove) ... ok
+test_22_not_found_and_injection (__main__.ApiTests.test_22_not_found_and_injection) ... ok
+test_23_expired_session (__main__.ApiTests.test_23_expired_session) ... ok
+test_24_logout (__main__.ApiTests.test_24_logout) ... ok
+test_25_password_change (__main__.ApiTests.test_25_password_change) ... ok
+test_26_deactivation (__main__.ApiTests.test_26_deactivation) ... ok
+test_27_secrets_not_stored_plaintext (__main__.ApiTests.test_27_secrets_not_stored_plaintext) ... ok
+test_28_oversize_body (__main__.ApiTests.test_28_oversize_body) ... ok
+test_29_empty_round (__main__.ApiTests.test_29_empty_round) ... ok
+test_30_bootstrap_cannot_reset_accounts (__main__.ApiTests.test_30_bootstrap_cannot_reset_accounts) ... ok
+test_31_legacy_migration_preserves_history (__main__.ApiTests.test_31_legacy_migration_preserves_history) ... ok
+test_99_login_rate_limit (__main__.ApiTests.test_99_login_rate_limit) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 9.107s
+
+OK
