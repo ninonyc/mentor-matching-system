@@ -2,11 +2,7 @@
 
 An AI-assisted class project that assigns mentees to mentors using ranked preferences and the Gale–Shapley Deferred Acceptance algorithm.
 
-<<<<<<< HEAD
 > **Status:** Deployed on https://ascent-mentoring.onrender.com/.
-=======
-> **Status:** Deployed at [Ascent Mentoring](https://ascent-mentoring.onrender.com/). Hosted API health and administrator login are verified. Full hosted workflow and restart-persistence checks remain follow-up work.
->>>>>>> d1119cf (Update README for deployed application)
 
 ## Project goals
 
